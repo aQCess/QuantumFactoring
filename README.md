@@ -48,10 +48,10 @@ julia> conn = connect(; url=QPERFECT_CLOUD)
 julia> factorize(1073, conn; compiled=false)
 ```
 ```Julia
-Result :			 		 37 x 29 = 1073
-Trials :			 	 	 1
+Result :			 37 x 29 = 1073
+Trials :			 1
 Success probability :		 1.0 (100/100 samples)
-Simulation time :		 	 0.798278261 seconds
+Simulation time :		 0.798278261 seconds
 Size of the Hilbert space :	 2^17
 Grover iteration steps :	 8
 Number of one-qubit gates :	 7499
